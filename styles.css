@@ -1,0 +1,92 @@
+body {
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: #ffffff00;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+#banner {
+  background-image: url(img/bg/bg-main-cover.jpg);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.transition1 {
+  padding-top: 300px;
+  z-index: 2;
+}
+
+#main {
+  background-color: #273036;
+}
+
+#roadmapsec {
+  background-color: white;
+}
+
+@media only screen and (max-width: 1980px) {
+  .roadmap {
+    width: 800px;
+  }
+
+  .sample {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .roadmap {
+    width: 600px;
+  }
+
+  .sample {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .roadmap {
+    width: 500px;
+  }
+
+  .sample {
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .roadmap {
+    width: 400px;
+  }
+
+  .sample {
+    width: 175px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .roadmap {
+    width: 350px;
+  }
+
+  .sample {
+    width: 175px;
+  }
+}
+
+.footer {
+  background-color: #273036;
+}
+
+.social {
+  text-decoration: none;
+}
