@@ -83,10 +83,15 @@ a {
   }
 }
 
-.footer {
+.rarity {
   background-color: #273036;
+}
+
+.prarity {
+  width: 50rem;
 }
 
 .social {
   text-decoration: none;
+  list-style: none;
 }
