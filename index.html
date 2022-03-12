@@ -14,30 +14,48 @@
     <title>Lynx Strezzo NFT</title>
   </head>
   <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar fixed-top navbar-expand-lg navbar-dark bg-dark shadow-sm">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="img/icon/logo.png" alt="logo" width="50px" class="logo" />Lynx Strezzo NFT</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse bg-dark" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item ms-3">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item ms-3">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item ms-3">
+              <a class="nav-link" href="#roadmapsec">Roadmap</a>
+            </li>
+            <li class="nav-item ms-3">
+              <a class="nav-link" href="#rarity">Rarity</a>
+            </li>
+            <li class="nav-item ms-3">
+              <a class="nav-link" href="#social">Social Media</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+
     <!-- Banner -->
     <section id="banner">
-      <div class="navbar">
-        <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#">Discord</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#">Instagram</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#">Opensea</a>
-          </li>
-        </ul>
-      </div>
       <div class="transition1">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#273036" fill-opacity="1" d="M0,224L1440,160L1440,320L0,320Z"></path></svg>
       </div>
+      <img src="img/icon/logo.png" alt="logo" width="300px" class="biglogo" />
     </section>
     <!-- Close Banner -->
 
     <!-- Main Content -->
     <section id="main">
-      <div class="container">
+      <div class="container" id="about">
         <div class="row mb-3">
           <div class="col text-center text-white" data-aos="fade-down">
             <h2>About The Project</h2>
@@ -75,16 +93,24 @@
     </section>
     <!-- Close Roadmap -->
     <!-- Rarity -->
-    <section class="rarity">
+    <section class="rarity text-center container-fluid" id="rarity">
       <!-- Text -->
-      <div class="row justify-content-center container-fluid">
+      <div class="row justify-content-center">
         <h2 class="text-white text-center mb-3">Rarity</h2>
         <p class="prarity text-white text-center mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ullam aperiam a, inventore quo labore doloremque incidunt dolor quidem facilis!</p>
       </div>
       <!-- Close Text -->
       <!-- Rarity Card -->
-      <div class="row justify-content-center container-fluid mb-5">
-        <div class="rare col-md-3 m-3">
+      <div class="row justify-content-center">
+        <div class="common col-md-2 m-3">
+          <div class="card text-center">
+            <img src="img/rarity/common.png" class="card-img-top" alt="rare" />
+            <div class="card-body">
+              <p class="card-text">Common</p>
+            </div>
+          </div>
+        </div>
+        <div class="rare col-md-2 m-3">
           <div class="card text-center">
             <img src="img/rarity/rare.png" class="card-img-top" alt="rare" />
             <div class="card-body">
@@ -92,7 +118,7 @@
             </div>
           </div>
         </div>
-        <div class="limited col-md-3 m-3">
+        <div class="limited col-md-2 m-3">
           <div class="card text-center">
             <img src="img/rarity/limited.png" class="card-img-top" alt="Limited" />
             <div class="card-body">
@@ -100,7 +126,7 @@
             </div>
           </div>
         </div>
-        <div class="legend col-md-3 m-3">
+        <div class="legend col-md-2 m-3">
           <div class="card text-center">
             <img src="img/rarity/legend.png" class="card-img-top" alt="Legend" />
             <div class="card-body">
@@ -110,96 +136,11 @@
         </div>
       </div>
       <!-- Close Rarity Card -->
-
-      <!-- Trait -->
-      <div class="trait-categories row justify-content-center container-fluid">
-        <h2 class="tc-title text-center text-white">Trait Categories</h2>
-      </div>
-      <div class="trait row justify-content-center container-fluid">
-        <!-- Trait Card -->
-        <div class="top col-md-2 m-3">
-          <div class="card">
-            <div class="card-body">
-              <div class="row">
-                <div class="col">
-                  <h4 class="card-text trait-name">Top</h4>
-                  <h5 class="trait-quantity">5</h5>
-                </div>
-                <div class="col justify-content-center">
-                  <img class="trait-icon p-1" src="img/rarity/legend.png" width="50px" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="head col-md-2 m-3">
-          <div class="card">
-            <div class="card-body">
-              <div class="row">
-                <div class="col">
-                  <h4 class="card-text trait-name">Head</h4>
-                  <h5 class="trait-quantity">3</h5>
-                </div>
-                <div class="col justify-content-center">
-                  <img class="trait-icon p-1" src="img/rarity/legend.png" width="50px" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="eye col-md-2 m-3">
-          <div class="card">
-            <div class="card-body">
-              <div class="row">
-                <div class="col">
-                  <h4 class="card-text trait-name">Eye</h4>
-                  <h5 class="trait-quantity">1</h5>
-                </div>
-                <div class="col justify-content-center">
-                  <img class="trait-icon p-1" src="img/rarity/legend.png" width="50px" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="ear col-md-2 m-3">
-          <div class="card">
-            <div class="card-body">
-              <div class="row">
-                <div class="col">
-                  <h4 class="card-text trait-name">Ear</h4>
-                  <h5 class="trait-quantity">1</h5>
-                </div>
-                <div class="col justify-content-center">
-                  <img class="trait-icon p-1" src="img/rarity/legend.png" width="50px" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="mouth col-md-2 m-3">
-          <div class="card">
-            <div class="card-body">
-              <div class="row">
-                <div class="col">
-                  <h4 class="card-text trait-name">Mouth</h4>
-                  <h5 class="trait-quantity">2</h5>
-                </div>
-                <div class="col justify-content-center">
-                  <img class="trait-icon p-1" src="img/rarity/legend.png" width="50px" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Close Trait Card -->
-      </div>
-      <!-- Close Trait -->
     </section>
     <!-- Close Rarity -->
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer" id="social">
       <!-- Transition -->
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#273036" fill-opacity="1" d="M0,192L1440,288L1440,0L0,0Z"></path></svg>
       <!-- Close Transition -->
@@ -208,13 +149,16 @@
       </div>
       <ul class="social list-group list-group-horizontal justify-content-center">
         <li class="nav-item">
-          <a class="nav-link" href="#">Discord</a>
+          <a class="nav-link" href="https://discord.com/invite/rASk2cMP"><img src="img/icon/discord.png" alt="Discord" width="50px" /></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Instagram</a>
+          <a class="nav-link" href="https://www.instagram.com/lynx.strezzo.nft/"><img src="img/icon/instagram.png" alt="Instagram" width="50px" /></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Opensea</a>
+          <a class="nav-link" href="https://opensea.io/collection/lynxstrezzo"><img src="img/icon/opensea.png" alt="Opensea" width="50px" /></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://twitter.com/LynxStrezzo"><img src="img/icon/twitter.png" alt="Twitter" width="50px" /></a>
         </li>
       </ul>
     </footer>

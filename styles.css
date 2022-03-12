@@ -6,11 +6,35 @@ a {
   text-decoration: none;
 }
 
-.navbar {
-  background-color: #ffffff00;
+.biglogo {
   position: absolute;
-  top: 0px;
-  right: 0px;
+  bottom: 90px;
+  left: 70px;
+}
+
+.logo {
+  margin-right: 10px;
+}
+
+.navbar {
+  height: 75px;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  border-radius: 20px;
+}
+
+.soc-icon-discord {
+  width: 70px;
+  height: 70px;
+}
+.soc-icon-instagram {
+  width: 70px;
+  height: 70px;
+}
+.soc-icon-opensea {
+  width: 70px;
+  height: 70px;
 }
 
 #banner {
@@ -29,8 +53,17 @@ a {
   background-color: #273036;
 }
 
+#about {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
 #roadmapsec {
   background-color: white;
+}
+
+#rarity {
+  padding-top: 7rem;
 }
 
 @media only screen and (max-width: 1980px) {
@@ -60,6 +93,10 @@ a {
 
   .sample {
     width: 250px;
+  }
+
+  .collapse {
+    border-radius: 0px 0px 20px 20px;
   }
 }
 
